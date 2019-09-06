@@ -1,0 +1,53 @@
+p.teaser {
+    text-indent: 30px; 
+    }
+
+.themes ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+}
+
+.themes li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+.themes li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+.themes{
+	padding-top: 60px;
+}
+.content_courses{
+	display: flex;
+	flex-direction:row; 
+}
+
+.courses{
+	padding-left: 50px; 
+	margin-top: 60px;
+	width: 100%;
+}
+
+.course_block{
+	border: 1px solid black;
+	padding: 20px; 
+}
+
+.center{
+	text-align: center;
+}
+
+.left_top{
+	text-align: left;
+	position: relative;
+	
+}
